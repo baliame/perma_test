@@ -19,7 +19,7 @@ SMODS.Enhancement {
         }
     },
     config = {
-        chips = 1,
+        bonus = 1,
         x_chips = 2,
         mult = 3,
         x_mult = 4,
@@ -32,7 +32,7 @@ SMODS.Enhancement {
     },
     loc_vars = function(self, info_queue, card)
         return {vars = {
-            SMODS.signed(card.ability.chips),
+            SMODS.signed(card.ability.bonus),
             card.ability.x_chips,
             SMODS.signed(card.ability.mult),
             card.ability.x_mult,
